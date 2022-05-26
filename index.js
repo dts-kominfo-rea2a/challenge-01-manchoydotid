@@ -34,8 +34,8 @@ const firstUser = {
   favoriteRestaurant: firstUserfavRestaurant,
 };
 
-const secondUserFavColor = array.from(new Set(["Blue", "Black", "Grey"]));
-const secondUserFavRestaurant = array.from(
+const secondUserFavColor = Array.from(new Set(["Blue", "Black", "Grey"]));
+const secondUserFavRestaurant = Array.from(
   new Set([
     "Tempura",
     "Bento",
