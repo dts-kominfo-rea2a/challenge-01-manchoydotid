@@ -1,19 +1,23 @@
 // TODO: Buatlah data dari kedua user di sini
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
-const firstUserfavColor = new Set(["Yellow", "Pink", "White", "Purple"]);
-const firstUserfavRestaurant = new Set([
-  "Bento",
-  "Sushi",
-  "Pancake",
-  "Eggy",
-  "Tempura",
-  "Bento",
-  "Padang",
-  "Tteok",
-  "Sushi",
-  "Sushi",
-]);
+const firstUserfavColor = Array.from(
+  new Set(["Yellow", "Pink", "White", "Purple"])
+);
+const firstUserfavRestaurant = Array.from(
+  new Set([
+    "Bento",
+    "Sushi",
+    "Pancake",
+    "Eggy",
+    "Tempura",
+    "Bento",
+    "Padang",
+    "Tteok",
+    "Sushi",
+    "Sushi",
+  ])
+);
 
 const firstUser = {
   name: "Monica",
@@ -30,18 +34,20 @@ const firstUser = {
   favoriteRestaurant: firstUserfavRestaurant,
 };
 
-const secondUserFavColor = new Set(["Blue", "Black", "Grey"]);
-const secondUserFavRestaurant = new Set([
-  "Tempura",
-  "Bento",
-  "Sushi",
-  "Pancake",
-  "Padang",
-  "Katsu",
-  "Geprek",
-  "Pancake",
-  "Eggy",
-]);
+const secondUserFavColor = array.from(new Set(["Blue", "Black", "Grey"]));
+const secondUserFavRestaurant = array.from(
+  new Set([
+    "Tempura",
+    "Bento",
+    "Sushi",
+    "Pancake",
+    "Padang",
+    "Katsu",
+    "Geprek",
+    "Pancake",
+    "Eggy",
+  ])
+);
 
 const secondUser = {
   name: "Wendy",
